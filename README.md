@@ -9,3 +9,14 @@ To run compile TS to JS in watch mode,
 To run any file,
 
 `node lib/<file>.js`
+
+To create this repo,
+
+```
+npm init -y
+npm i typescript -D
+```
+
+To create build folder,
+
+`npm run build`
