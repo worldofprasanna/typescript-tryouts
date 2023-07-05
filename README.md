@@ -20,3 +20,10 @@ npm i typescript -D
 To create build folder,
 
 `npm run build`
+
+To directly run the TS files,
+
+```
+npm i ts-node
+npx ts-node src/<>.ts
+```
