@@ -13,3 +13,16 @@ let array1: number[] = [1, 2, 3]
 
 let tuple: [number, number] = [0, 0]
 
+type NumberOrError =
+| number
+| string
+
+function div(a: number, b: number): NumberOrError {
+  if (b == 0) {
+    return 'divide by zero'
+  } else {
+    return a / b
+  }
+}
+
+// make example with padding itself
